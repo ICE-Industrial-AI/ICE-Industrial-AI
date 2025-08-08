@@ -8,6 +8,7 @@ import rehypeKatex from 'rehype-katex';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://ice-industrial-ai.github.io/ICE-Industrial-AI',
+  base: '/ICE-Industrial-AI/',
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
     remarkPlugins: [
