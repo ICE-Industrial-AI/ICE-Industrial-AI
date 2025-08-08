@@ -10,6 +10,9 @@ export default defineConfig({
   site: 'https://ice-industrial-ai.github.io/ICE-Industrial-AI',
   base: '/ICE-Industrial-AI/',
   integrations: [mdx(), sitemap(), tailwind()],
+  buid: {
+    outDir: './docs',
+  },
   markdown: {
     remarkPlugins: [
       remarkMath,
